@@ -1,6 +1,8 @@
+import ItemCount from "./ItemCount";
+
 const ItemListContainer = (props) => {
-    return(
-        <p>Hola, soy: {props.saludo}</p>
+    return (
+        <ItemCount stock={5} initial={1} />
     )
 }
 
